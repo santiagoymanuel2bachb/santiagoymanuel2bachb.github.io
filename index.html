@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Viajes por el mundo</title>      
+        <style>
+            #titulo{color: rgb(0, 0, 0);
+            border: 8px ridge rgb(0, 0, 0);
+            background-color: rgb(240, 96, 96);
+            text-align: center;
+            font-family:monospace;
+            }
+
+
+
+            #lugares{color:rgb(255, 183, 0);
+                 background-color: rgb(189, 144, 32);
+                 text-align: center;font-family:monospace;}
+
+            #comida{color:rgb(255, 183, 0); 
+                background-color: rgb(189, 144, 32);
+                text-align: center;font-family:monospace;margin-top: 350px;}
+
+            #fauna{color:rgb(255, 183 ,0);
+                 background-color: rgb(189, 144, 32);
+                 text-align: center; font-family:monospace;}
+
+            #egipto{background-color:rgb(247, 227, 10);
+                text-align: center;border: 4px ridge rgb(0, 0, 0);font-family:monospace;}
+
+            .duna{border: 10px ridge rgb(255, 183, 0);margin-bottom: 20px;float: left;margin-left: 30px;
+            }
+
+            .uvas{border: 10px ridge rgb(255, 183, 0);margin-bottom: 20px;}
+
+            .cocodrilos{border: 10px ridge rgb(255, 183, 0);
+            float: right;margin-right: 30px;
+        }
+
+        #texto-duna{float: right; 
+            margin-right: 30px;
+
+        }
+        .titulo-lugares{color: rgb(0, 0, 0);
+            background-color: rgb(255, 183, 0);   
+            text-align: center;
+            width: 200px;
+
+        }
+
+    #texto-cocodrilo{ 
+        margin-left: 30px; 
+        width: 30%;
+        float:left;
+        margin-top: 50px;
+    }
+
+
+
+
+            .cristo{border: 10px groove rgb(204, 204, 204);
+                margin-bottom: 20px; 
+                
+            }
+
+            .feijoada{border: 10px groove rgb(204, 204, 204);
+                margin-bottom: 20px; float: left;margin-left: 30px;
+            }
+
+            .tucan{border: 10px groove rgb(204, 204, 204);
+                margin-bottom: 20px; float: right; margin-right: 30px;
+            }
+
+            .tucananimado{float:left}
+
+            #brasil{background-color:rgb(247, 227, 10);
+                text-align: center; border: 4px ridge rgb(0, 0, 0);font-family:monospace;
+            margin-top: 300px;
+            }
+
+            #lugar{background-color: rgb(204, 204, 204);
+color: rgb(77, 70, 70);text-align: center;font-family:monospace;
+            }
+
+            #comidas{background-color: rgb(204, 204, 204);
+                color: rgb(77, 70, 70);text-align: center;font-family:monospace;
+            }
+
+            #animales{background-color: rgb(204, 204, 204);
+                color: rgb(77, 70, 70);text-align: center;font-family:monospace; 
+                margin-top: 350px;
+            }
+
+
+            #texto-tucan{float:left;
+                margin-left:10%;
+
+            }
+
+            #zoo{color: rgb(255, 255, 255);
+            background-color: rgb(71, 69, 69);   
+            text-align: center;
+            width: 200px;
+            }
+
+            #texto-feijoada{margin-right: 30px; 
+        width: 30%;
+        float:right;
+        margin-top: 50px;
+
+            }
+
+            #indice{color: rgb(121, 11, 11);
+font-weight: bolder;
+font-size: 40px;
+
+            }
+
+            #body{background-color: bisque;
+
+            }
+           
+
+
+        </style>
+    </head>
+    <body id="body">
+    <h1 id="titulo">AGENCIA DE VIAJES</h1>
+    <table>
+        <caption id="indice">ÍNDICE</caption>
+        <tr>
+          <td></td>
+          <th><a href="#egipto">Viaje a Egipto</a></th>
+          <th><a href="#brasil">Viaje a Brasil</a></th>
+        </tr>
+    </table>
+
+        <h2 id="egipto">Viaja a Egipto</h2>
+        <h3 id="lugares">Lugares típicos</h3>
+        <div id="texto-duna">
+            <h4 class="titulo-lugares">7 LUGARES IMPRESCINDIBLES</h4>
+            <ol>
+                <li>Caos en El Cairo.</li>
+                <li>Giza, la joya de la corona.</li>
+                <li>Saqqara, la pirámide escalonada.</li>
+                <li>Alejandría, la más mítica de las ciudades.</li>
+                <li>Un crucero por el Nilo.</li>
+                <li>Luxor, el templo de Amón.</li>
+                <li>El increíble Templo de Karnak.</li>
+            </ol>
+        </div>
+        <a href="https://concepto.de/desierto/#:~:text=Los%20desiertos%20son%20zonas%20que,escasa%20presencia%20de%20organismos%20vivos.">
+        <img class="duna" src="data:image/jpeg;base64,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" 
+        alt="foto de Egipto" width="400">
+        </a>
+        <h3 id="comida">Comidas de la zona</h3>
+        <p><strong>Ful medammes</strong> - Plato con habas cocidas.<strong>El molokheya (mouloureija)</strong> - caldo elaborada con variedad de hierbas a la que se le pone carne de pollo, conejo y diversas especias.<strong>Kushari</strong> - Estriado de granos.</p>
+        <div align="center"><a href="https://es.wikipedia.org/wiki/Uva"><img class="uvas" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIvorssvGpVGMWe0jmQog8Sx1XyQL5X-YA2A&usqp=CAU"
+        alt="foto de unas uvas" width="400"></a> </div>
+        
+        <h3 id="fauna">Fauna y flora</h3>
+        <div id="texto-cocodrilo">
+            <table border="1" class="e-animal">
+                <thead>
+                    <tr>
+                        <th>FAUNA Y FLORA</th>
+                        <th>NOMBRE CIENTÍFICO</th>
+                    </tr>
+                    <tr>
+                        <th>Loto de Egipto</th>
+                        <th>Nymphaea caerulea</th>
+                    </tr>
+                    <tr>
+                        <th>Papiro</th>
+                        <th>Cyperus papyrus</th>
+                    </tr>
+                    <tr>
+                        <th>Leopardo de Arabia</th>
+                        <th>Panthera pardus</th>
+                    </tr>
+                    <tr>
+                        <th>Lagarto egipcio</th>
+                        <th>Uromastyx aegyptia</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <a href="https://es.wikipedia.org/wiki/Crocodylidae"><img class="cocodrilos" src="https://millasyorillas.files.wordpress.com/2021/01/dsc03345-2-1.jpg?w=1024"
+             alt="foto de cocodrilos" width="400"></a>
+    
+   
+    
+    
+       <p> <h2 id="brasil">Viaja a Brasil</h2></p>
+    <h3 id="lugar">Lugares típicos</h3>
+        <p>Brasil es un vasto país de Sudamérica que se extiende desde la Cuenca del Amazonas en el norte hasta los viñedos y las enormes cataratas del Iguazú en el sur. Río de Janeiro, simbolizado por su estatua de 38 m del <strong>Cristo Redentor</strong> sobre el cerro del Corcovado, es famoso por sus ajetreadas playas Copacabana e Ipanema, junto con su enorme y estridente festival del Carnaval, que cuenta con carros alegóricos, exuberantes disfraces y danza y música samba.
+
+        </p>
+       <div align="center"><a href="https://es.wikipedia.org/wiki/Cristo_Redentor"><img class="cristo" src="https://rederiohoteis.com/wp-content/uploads/2017/09/2017-10-29-cristo-redentor-conhe%C3%A7a-a-historia-dessa-maravilha-do-mundo-moderno2.jpg" 
+        alt="foto del cristo redentor" width="400"></a>
+       </div> 
+       <h3 id="comidas">Comidas de la zona</h3>
+       <div id="texto-feijoada">La <strong>gastronomía de Brasil</strong> es muy diversa, debido a que se basa en la cocina de las más de 2.000 <strong>tribus indígenas</strong>, moldeada por el influjo de la <strong>comida portuguesa </strong> el siglo XVI y las costumbres de los cinco millones de africanos que trajeron como esclavos, y adquiriendo más recientemente todo tipo de influencias internacionales provenientes de Italia, Alemania, etc.</div>
+       <a href="https://es.wikipedia.org/wiki/Feijoada"><img class="feijoada" src="https://www.solocarnes.com/wp-content/uploads/2020/12/White-and-Yellow-Simple-Fireworks-Photo-New-Year-Card-3-3.jpg"
+         alt="feijoada plato brasileño" width="400"></a>
+    
+       <h3 id="animales">Fauna y flora</h3>
+    <div id="texto-tucan">
+        <p>
+            <h4 id="zoo"><strong>ZOOLÓGICOS Y ACUARIOS</strong></h4>
+            <ul>
+                <li>Zoo Das Aves <em>(8,98€ entrada)</em></li><br>
+                <li>Zoológico Municipal de Guarulhos <em>(10,24€ entrada)</em></li><br>
+                <li>Zoo Pomerode <em>(9,98€ entrada)</em></li><br>
+                <li>Parque Das Aves <em>(39,27€ entrada)</em></li><br>
+                <li>Zooparque <em>(7,89€ entrada)</em></li>
+            </ul>
+        </p>
+    </div>
+    <a href="https://es.wikipedia.org/wiki/Ramphastidae"><img class="tucan" src="https://www.gifss.com/aves/tucanes/images/gif-tucan-3.gif"
+         alt="tucan brasileño animal tipico" width="400"></a>
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
